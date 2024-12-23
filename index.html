@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/indexStyle.css" />
+  </head>
+  <body>
+    <section id="home">
+      <div class="cover"></div>
+      <nav
+        class="navbar container mb-5 position-sticky z-3 w-75 rounded-5 text-white navbar-expand-lg bg-body-tertiary"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-4" href="#">
+            <img src="images/logo-sm.png" class="w-10" alt="logo-sm" />
+            Game Reviews</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >MMORPG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SUPERHERO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="displayGames" class="container row mx-auto g-3"></div>
+    </section>
+
+    <section id="game" class="container d-none mx-auto text-white">
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <h1>Details Game</h1>
+        <i class="fa fa-x"></i>
+      </div>
+      <div class="row" id="gameDetailView"></div>
+    </section>
+
+    <!-- ******************** -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- <script src="JS/main.js"></script> -->
+    <script src="JS/index.js" type="module"></script>
+    <!-- <script src="JS/Ui.js"></script> -->
+  </body>
+</html>
