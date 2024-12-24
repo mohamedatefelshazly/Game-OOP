@@ -9,6 +9,10 @@ body {
   background-size: cover;
   background-position: center center;
   height: 30vh;
+  max-height: 150px;
+}
+.uptop {
+  top: -50px;
 }
 .w-10 {
   width: 15%;
